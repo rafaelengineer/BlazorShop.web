@@ -1,0 +1,4 @@
+[don't] dotnet ef dbcontext scaffold -c AppDbContext "Host=172.19.0.72;Port=5432;Database=rls_tmp;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL
+
+dotnet ef migrations add InitialCreate --context AppDbContext -v
+

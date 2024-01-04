@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>BlazorShop.Models</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DTO's\Category_DTO.cs" />
+    <None Remove="DTO's\DTO's\Category_DTO.cs" />
+    <None Remove="DTO's\DTO's\Produto_DTO.cs" />
+    <None Remove="DTO's\DTO's\ShopCarItemsAdd_DTO.cs" />
+    <None Remove="DTO's\DTO's\ShopCarItemsAtualize_DTO.cs" />
+    <None Remove="DTO's\DTO's\ShopCar_DTO.cs" />
+    <None Remove="DTO's\DTO's\ShopItems_DTO.cs" />
+    <None Remove="DTO's\Produto_DTO.cs" />
+    <None Remove="DTO's\ShopCarItemsAdd_DTO.cs" />
+    <None Remove="DTO's\ShopCarItemsAtualize_DTO.cs" />
+    <None Remove="DTO's\ShopCar_DTO.cs" />
+    <None Remove="DTO's\ShopItems_DTO.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="DTO's\Category_DTO.cs" />
+    <Compile Include="DTO's\Produto_DTO.cs" />
+    <Compile Include="DTO's\ShopCarItemsAdd_DTO.cs" />
+    <Compile Include="DTO's\ShopCarItemsAtualize_DTO.cs" />
+    <Compile Include="DTO's\ShopCar_DTO.cs" />
+    <Compile Include="DTO's\ShopItems_DTO.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="6.0.10" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.22" />
+  </ItemGroup>
+
+</Project>

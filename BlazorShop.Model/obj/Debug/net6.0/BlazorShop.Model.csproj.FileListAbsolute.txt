@@ -1,0 +1,12 @@
+C:\Git\BlazorShop.Web\BlazorShop.Model\bin\Debug\net6.0\BlazorShop.Model.deps.json
+C:\Git\BlazorShop.Web\BlazorShop.Model\bin\Debug\net6.0\BlazorShop.Model.dll
+C:\Git\BlazorShop.Web\BlazorShop.Model\bin\Debug\net6.0\BlazorShop.Model.pdb
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.csproj.AssemblyReference.cache
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.AssemblyInfoInputs.cache
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.AssemblyInfo.cs
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.csproj.CoreCompileInputs.cache
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.dll
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\refint\BlazorShop.Model.dll
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\BlazorShop.Model.pdb
+C:\Git\BlazorShop.Web\BlazorShop.Model\obj\Debug\net6.0\ref\BlazorShop.Model.dll

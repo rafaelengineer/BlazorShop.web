@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = BlazorShop.Api
+build_property.ProjectDir = C:\Git\BlazorShop.Web\BlazorShop.Api\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
