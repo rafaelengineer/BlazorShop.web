@@ -32,6 +32,7 @@ C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\BlazorShop.Api.MvcApplicat
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\BlazorShop.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\BlazorShop.Api.RazorAssemblyInfo.cache
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\BlazorShop.Api.RazorAssemblyInfo.cs
+C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\BlazorShop.Api.sourcelink.json
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\staticwebassets.development.json
 C:\Git\BlazorShop.Web\BlazorShop.Api\obj\Debug\net6.0\staticwebassets\msbuild.BlazorShop.Api.Microsoft.AspNetCore.StaticWebAssets.props

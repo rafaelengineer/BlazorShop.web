@@ -13,11 +13,11 @@ namespace BlazorShop.Api.Repositories
             _context = context;
         }
 
-        public async Task<Product> getItem(int id)
+        public async Task<Product> getItem(int productId)
         {
             var product = await _context.tb_Product
                             .Include(c => c.Category)
-                            .SingleOrDefaultAsync(c => c.CategoryId == id);
+                            .SingleOrDefaultAsync(c => c.productId == productId);
 
             return product;
         }

@@ -1,18 +1,37 @@
-﻿@page "/products"
+﻿@page "/Produtos"
 @inject IProdutoService produtoService
 
-    <h3>Carregando Produtos...</h3>
-@*
+<h2>Products Page</h2>
 
- @if (Produtos == null)
- {
-     //<ExibirSpinner />
-     <h3>Carregando Produtos...</h3>
- }
- else
- {
-     <h3>Carregando Produtos...</h3>
-    @*   <h3 class="mb-5">Produtos</h3>
+
+@if (Products == null)
+{
+    //<ExibirSpinner />
+    <h3>Carregando Produtos...</h3>
+}
+else
+{
+    <h3 class="mb-5">Produtos</h3>
+    @if (Products.Count() > 0)
+    {
+        <div class="row mt-3">
+            @foreach (var item in Products)
+            {
+                <div class="col-md3-mb2">
+                    <a href="#">
+                        <div class="card" style="width: 18rem;">
+                            <img src="@item.ImagemUrl" class="img-thumbnail">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">@item.Price.ToString("c")</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    }
+    <h4>@teste</h4>
+    @*  @*   <h3 class="mb-5">Produtos</h3>
       @if (Produtos.Count() > 0)
       {
           var produtosPorCategoria = from produto in Produtos
@@ -27,15 +46,29 @@
                   <ExibirProdutos Produtos="@prodGrupo"></ExibirProdutos>
               </div>
               <hr class="mb-2"/>
-          }        
-      } 
+          }
+      }
  }
 *@
 
-@code {@*
-    public IEnumerable<Produto_DTO>? Produtos { get; set; }
+    @code {
+    public IEnumerable<Product_DTO> Products { get; set; }
 
-    [Inject]
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await produtoService.GetItens();
+        int test = 0;
+    }
+    public string teste = "fim do código";
+    //public IEnumerable<Product_DTO> Products { get; set; }
+    //
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    Products = await produtoService.GetItens();
+    //}
+    }
+
+    @*[Inject]
     public IGerenciaProdutosLocalStorageService?
                  GerenciaProdutosLocalStorageService
     { get; set; }

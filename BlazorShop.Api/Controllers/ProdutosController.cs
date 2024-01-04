@@ -40,12 +40,12 @@ public class ProdutosController : ControllerBase
         }
     }
 
-    [HttpGet("{id:int}")]
-    public async Task<ActionResult<Product_DTO>> GetItem(int id)
+    [HttpGet("{productId:int}")]
+    public async Task<ActionResult<Product_DTO>> GetItem(int productId)
     {
         try
         {
-            var produto = await _produtoRepository.getItem(id);
+            var produto = await _produtoRepository.getItem(productId);
             if (produto is null)
             {
                 return NotFound("Produto não localizado");

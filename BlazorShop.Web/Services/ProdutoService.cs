@@ -20,13 +20,25 @@ public class ProdutoService : IProdutoService
     {
         try
         {
-            var produtosDto = await _httpClient.
-                             GetFromJsonAsync<IEnumerable<Product_DTO>>("api/produtos");
-            return produtosDto;
+            HttpResponseMessage response = await _httpClient.GetAsync("api/Produtos");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var produtosDto = await response.Content.ReadFromJsonAsync<IEnumerable<Product_DTO>>();
+                return produtosDto;
+            }
+            else
+            {
+                _logger.LogError($"Error accessing products: api/Produtos, Status Code: {response.StatusCode}");
+                // Handle non-success status code if needed
+                throw new Exception();
+            }
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            _logger.LogError("Erro ao acessar produtos : api/produtos ");
+            _logger.LogError("Error accessing products: api/Produtos", e);
+            Console.WriteLine("Exception message: " + e.Message);
+            Console.WriteLine("Exception source: " + e.Source);
             throw;
         }
     }
