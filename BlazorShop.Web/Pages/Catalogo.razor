@@ -11,6 +11,7 @@
 }
 else
 {
+    var genericPic = @"https://localhost:7110/Imagens/AutoParts/AutoParts30.png";
     <h3 class="mb-5">Produtos</h3>
     @if (Products.Count() > 0)
     {
@@ -20,8 +21,17 @@ else
                 <div class="col-md3-mb2">
                     <a href="#">
                         <div class="card" style="width: 18rem;">
-                            <img src="@item.ImagemUrl" class="img-thumbnail">
                             <div class="card-body">
+                                @if (!string.IsNullOrEmpty(item.ImagemUrl))
+                                {
+                                    <img src="@item.ImagemUrl" class="img-thumbnail" />
+                                }
+                                else
+                                {
+                                    <img src=https://localhost:7110/Imagens/AutoParts/AutoParts30.png class="img-thumbnail" />
+                                    <p>No Image Available at @item.Manufacturer</p>
+                                }
+                                <h5 class="card-title mb-3">@item.CategoryName.ToString()</h5>
                                 <h5 class="card-title mb-3">@item.Price.ToString("c")</h5>
                             </div>
                         </div>

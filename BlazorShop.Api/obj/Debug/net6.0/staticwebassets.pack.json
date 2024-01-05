@@ -5,6 +5,170 @@
       "PackagePath": "staticwebassets\\BlazorShop.Api.bundle.scp.css"
     },
     {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts30.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts30.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts30.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts30.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts31.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts31.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts31.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts31.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts32.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts32.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\AutoParts\\AutoParts32.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts32.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza1.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza1.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza2.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza2.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza3.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza3.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza4.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza4.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza41.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza41.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza42.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza42.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza43.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza43.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beauty\\Beleza5.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza5.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\AutoParts30.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts30.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\AutoParts31.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts31.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\AutoParts32.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts32.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage20.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage20.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage20.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage20.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage21.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage21.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage21.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage21.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage22.jpg",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Beverages\\Beverage22.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\eletronico1.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\eletronico1.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\eletronico2.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\eletronico2.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\eletronico3.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\eletronico3.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\eletronico4.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\eletronico4.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\eletronico5.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\eletronico5.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Electronics\\tecnologia6.png",
+      "PackagePath": "staticwebassets\\Imagens\\Electronics\\tecnologia6.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis1.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis1.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis2.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis2.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis3.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis3.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis4.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis4.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis6.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis6.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Forniture\\moveis7.png",
+      "PackagePath": "staticwebassets\\Imagens\\Forniture\\moveis7.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado1.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado1.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado2.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado2.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado3.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado3.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado4.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado4.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado5.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado5.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\Imagens\\Shoes\\calcado6.png",
+      "PackagePath": "staticwebassets\\Imagens\\Shoes\\calcado6.png"
+    },
+    {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Api\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

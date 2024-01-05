@@ -17,12 +17,24 @@
       "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts30.jpg"
     },
     {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\AutoParts\\AutoParts30.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts30.png"
+    },
+    {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\AutoParts\\AutoParts31.jpg",
       "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts31.jpg"
     },
     {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\AutoParts\\AutoParts31.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts31.png"
+    },
+    {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\AutoParts\\AutoParts32.jpg",
       "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts32.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\AutoParts\\AutoParts32.png",
+      "PackagePath": "staticwebassets\\Imagens\\AutoParts\\AutoParts32.png"
     },
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza1.png",
@@ -41,32 +53,56 @@
       "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza4.png"
     },
     {
-      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza41.jpg",
-      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza41.jpg"
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza41.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza41.png"
     },
     {
-      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza42.jpg",
-      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza42.jpg"
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza42.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza42.png"
     },
     {
-      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza43.jpg",
-      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza43.jpg"
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza43.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza43.png"
     },
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beauty\\Beleza5.png",
       "PackagePath": "staticwebassets\\Imagens\\Beauty\\Beleza5.png"
     },
     {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\AutoParts30.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts30.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\AutoParts31.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts31.png"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\AutoParts32.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\AutoParts32.png"
+    },
+    {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage20.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage20.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage20.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage20.png"
     },
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage21.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage21.jpg"
     },
     {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage21.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage21.png"
+    },
+    {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage22.jpg",
       "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.jpg"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage22.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.png"
     },
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Electronics\\eletronico1.png",

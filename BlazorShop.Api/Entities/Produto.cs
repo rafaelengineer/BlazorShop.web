@@ -12,7 +12,8 @@ namespace BlazorShop.Api.Entities
         [MaxLength(200)]
         public string Description { get; set; }//Description: A string that provides a description of the product.
         [MaxLength(200)]
-        public string ImagemUrl { get; set; } = string.Empty;
+        public string ImagemUrl { get; set; }
+
         [Column(TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }//Price: A decimal that represents the price of the product.
         public int CategoryId { get; set; }//Category: A string that represents the category to which the product belongs.
