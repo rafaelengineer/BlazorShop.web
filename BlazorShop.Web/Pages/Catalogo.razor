@@ -1,4 +1,5 @@
-﻿@page "/Produtos"
+﻿@page "/ProductsCatalog"
+@using System.Globalization
 @inject IProdutoService produtoService
 
 <h2>Products Page</h2>
@@ -6,70 +7,47 @@
 
 @if (Products == null)
 {
-    //<ExibirSpinner />
+    <ShowSpinner />
+    <ShowSpinner2 />
     <h3>Carregando Produtos...</h3>
 }
 else
 {
-    var genericPic = @"https://localhost:7110/Imagens/AutoParts/AutoParts30.png";
-    <h3 class="mb-5">Produtos</h3>
+   @* <h3 class="mb-5">Produtos</h3>
     @if (Products.Count() > 0)
     {
         <div class="row mt-3">
-            @foreach (var item in Products)
-            {
-                <div class="col-md3-mb2">
-                    <a href="#">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                @if (!string.IsNullOrEmpty(item.ImagemUrl))
-                                {
-                                    <img src="@item.ImagemUrl" class="img-thumbnail" />
-                                }
-                                else
-                                {
-                                    <img src=https://localhost:7110/Imagens/AutoParts/AutoParts30.png class="img-thumbnail" />
-                                    <p>No Image Available at @item.Manufacturer</p>
-                                }
-                                <h5 class="card-title mb-3">@item.CategoryName.ToString()</h5>
-                                <h5 class="card-title mb-3">@item.Price.ToString("c")</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            }
+            <ExibirProdutos Products="@Products"></ExibirProdutos>
         </div>
     }
-    <h4>@teste</h4>
-    @*  @*   <h3 class="mb-5">Produtos</h3>
-      @if (Produtos.Count() > 0)
+        <h3 class="mb-5">Produtos</h3>*@
+      @if (Products.Count() > 0)
       {
-          var produtosPorCategoria = from produto in Produtos
+          var produtosPorCategoria = from produto in Products
                                      group produto by produto.CategoryId into prodPorCatGrupo
                                      orderby prodPorCatGrupo.Key
                                      select prodPorCatGrupo;
 
-          @foreach (var prodGrupo in produtosPorCategoria)
+        @foreach (var prodGrupo in produtosPorCategoria)
           {
               <h4>@prodGrupo.FirstOrDefault(pg=> pg.CategoryId == prodGrupo.Key).CategoryName</h4>
               <div class="row mt-3">
-                  <ExibirProdutos Produtos="@prodGrupo"></ExibirProdutos>
+                <ExibirProdutos Products="@prodGrupo"></ExibirProdutos>
               </div>
               <hr class="mb-2"/>
           }
       }
  }
-*@
+
 
     @code {
+
     public IEnumerable<Product_DTO> Products { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         Products = await produtoService.GetItens();
-        int test = 0;
     }
-    public string teste = "fim do código";
     //public IEnumerable<Product_DTO> Products { get; set; }
     //
     //protected override async Task OnInitializedAsync()
@@ -121,4 +99,3 @@ else
         await GerenciaProdutosLocalStorageService.RemoveCollection();
         await GerenciaCarrinhoItensLocalStorageService.RemoveCollection();
     }*@
-}

@@ -69,7 +69,7 @@ namespace BlazorShop.Api.Repositories
             return await (from shopCar in _context.tb_ShopCars
                           join shopItem in _context.tb_ShopItems
                           on shopCar.carId equals shopItem.carId
-                          where shopCar.carId == id
+                          where shopItem.shopItemsId == id
                           select new shopItems
                           {
                               shopItemsId = shopItem.shopItemsId,
@@ -93,6 +93,5 @@ namespace BlazorShop.Api.Repositories
                               carId = shopItem.carId
                           }).ToListAsync();
         }
-
     }
 }

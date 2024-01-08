@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s1TSHV3jg6391LT+cgw+ZHJyPtpT11GVuYQog+NZgik=",
+  "Hash": "mHaqe+eI+JfNcSOARNx2iNTXa0p/uKvvjMLTFeOiD1w=",
   "Source": "BlazorShop.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -8700,12 +8700,12 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Beverages\\Beverage22.jpg"
     },
     {
-      "Identity": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage22.png",
+      "Identity": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage23.png",
       "SourceId": "BlazorShop.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Imagens/Beverages/Beverage22.png",
+      "RelativePath": "Imagens/Beverages/Beverage23.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8716,7 +8716,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagens\\Beverages\\Beverage22.png"
+      "OriginalItemSpec": "wwwroot\\Imagens\\Beverages\\Beverage23.png"
     },
     {
       "Identity": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Electronics\\eletronico1.png",
@@ -9097,6 +9097,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\spinner.gif",
+      "SourceId": "BlazorShop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "spinner.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spinner.gif"
     },
     {
       "Identity": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Spinner-2.gif",

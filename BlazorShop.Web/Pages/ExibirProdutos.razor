@@ -1,22 +1,44 @@
-﻿@foreach (var item in Produtos)
-{
-    <div class="col-md-3 mb-2">
-        <a href="/ProdutoDetalhes/@item.productId">
-            <div class="card">
+﻿@using System.Globalization
 
-                <div class="card-body">
-                    <p class="mb-4">@item.Description</p>
-                    <h5 class="card-title mb-3">
-                        @item.Price.ToString("c")
-                    </h5>
+
+            @foreach (var item in Products)
+            {
+                <div class="col-md-3 mb-2">
+                    <a href="/ProductDetail/@item.productId">
+                        <div class="card">
+                            @if (!string.IsNullOrEmpty(item.ImagemUrl))
+                            {
+                                <img class="img-thumbnail" src="@item.ImagemUrl">
+                            }
+                            else
+                            {
+                                <img src=https://localhost:7110/Imagens/AutoParts/AutoParts30.png class="img-thumbnail" />
+                                <p>No Image Available at @item.ImagemUrl</p>
+                            }
+                            <div class="card-body">
+                                <p class="mb-4">@item.Name</p>
+                                <h5 class="card-title mb-3">
+                        
+                        @{
+                            decimal price = item.Price;
+                            CultureInfo cultureInfo = new CultureInfo("pt_PT"); // Use "pt-BR" for Brazilian Portuguese
+                            cultureInfo.NumberFormat.CurrencySymbol = "R$";
+                            cultureInfo.NumberFormat.CurrencyDecimalSeparator = ",";
+                            string formattedCurrency = price.ToString("C", cultureInfo);
+                        }
+                        @formattedCurrency
+
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-        </a>
-    </div>
-}
+            }
 
 @code {
 
+    CultureInfo customCulture = new CultureInfo("pt-BR"); 
+
     [Parameter]
-    public IEnumerable<Product_DTO>? Produtos { get; set; }
+    public IEnumerable<Product_DTO>? Products { get; set; }
 }

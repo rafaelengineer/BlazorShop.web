@@ -75,7 +75,7 @@ public class CarrinhoCompraController : ControllerBase
         }
         catch (Exception ex)
         {
-            logger.LogError($"## Erro ao obter o item ={id} do carrinho");
+            logger.LogError($"## Erro ao obter o item = {id} do carrinho");
             return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
         }
     }

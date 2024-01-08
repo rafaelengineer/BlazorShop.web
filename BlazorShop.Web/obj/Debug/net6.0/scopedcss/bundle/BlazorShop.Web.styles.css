@@ -162,3 +162,45 @@ main[b-n6rmdi0owa] {
         display: block;
     }
 }
+/* /Shared/ShowSpinner2.razor.rz.scp.css */
+/* Spinner.razor.css */
+.lds-ring[b-0u1ndcgmm0] {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div[b-0u1ndcgmm0] {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring-b-0u1ndcgmm0 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1)[b-0u1ndcgmm0] {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2)[b-0u1ndcgmm0] {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3)[b-0u1ndcgmm0] {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring-b-0u1ndcgmm0 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

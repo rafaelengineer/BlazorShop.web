@@ -101,8 +101,8 @@
       "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.jpg"
     },
     {
-      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage22.png",
-      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage22.png"
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Beverages\\Beverage23.png",
+      "PackagePath": "staticwebassets\\Imagens\\Beverages\\Beverage23.png"
     },
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\Imagens\\Electronics\\eletronico1.png",
@@ -247,6 +247,10 @@
     {
       "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\Git\\BlazorShop.Web\\BlazorShop.Web\\wwwroot\\spinner.gif",
+      "PackagePath": "staticwebassets\\spinner.gif"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorShop.Web.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Git/BlazorShop.Web/BlazorShop.Web/Pages/ProductDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/BlazorShop.Web/BlazorShop.Web/Shared/ShowError.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3dFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/BlazorShop.Web/BlazorShop.Web/Shared/ShowSpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3dTcGlubmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Git/BlazorShop.Web/BlazorShop.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -49,3 +61,7 @@ build_metadata.AdditionalFiles.CssScope = b-n6rmdi0owa
 [C:/Git/BlazorShop.Web/BlazorShop.Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qew11agi9f
+
+[C:/Git/BlazorShop.Web/BlazorShop.Web/Shared/ShowSpinner2.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3dTcGlubmVyMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-0u1ndcgmm0

@@ -29,7 +29,7 @@ public class CarrinhoCompraService : ICarrinhoCompraService
                 if (response.StatusCode == HttpStatusCode.NoContent)
                 {
                     // retorna o valor "padrão" ou vazio
-                    // para uma objeto do tipo carrinhoItemDto
+                    // para uma objeto do tipo ShopItems_DTO
                     return default(ShopItems_DTO);
                 }
                 //le o conteudo HTTP e retorna o valor resultante
@@ -40,7 +40,7 @@ public class CarrinhoCompraService : ICarrinhoCompraService
             {
                 //serializa o conteudo HTTP como uma string
                 var message = await response.Content.ReadAsStringAsync();
-                throw new Exception($"{response.StatusCode} Message -{message}");
+                throw new Exception($"{response.StatusCode} Message - {message}");
             }
         }
         catch (Exception)

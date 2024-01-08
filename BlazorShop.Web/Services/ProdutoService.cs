@@ -47,7 +47,7 @@ public class ProdutoService : IProdutoService
     {
         try
         {
-            var response = await _httpClient.GetAsync($"api/produtos/{id}");
+            var response = await _httpClient.GetAsync($"api/Produtos/{id}");
 
             if (response.IsSuccessStatusCode)
             {
@@ -66,7 +66,7 @@ public class ProdutoService : IProdutoService
         }
         catch (Exception)
         {
-            _logger.LogError($"Erro a obter produto pelo id={id}");
+            _logger.LogError($"Erro a obter produto pelo id = {id}");
             throw;
         }
     }
