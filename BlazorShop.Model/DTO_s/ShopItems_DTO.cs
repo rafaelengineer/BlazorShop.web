@@ -15,7 +15,7 @@ namespace BlazorShop.Model.DTO_s
 
         public string? ProductName { get; set; }
         public string? ProductDescription { get; set; }
-        //public string? ProdutoImagemURL { get; set; }
+        public string? ProductImageURL { get; set; }
         public decimal Price { get; set; }
         public decimal PriceTotal { get; set; }
     }

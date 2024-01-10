@@ -47,7 +47,7 @@ app.UseCors(policy =>
 app.UseHttpsRedirection();
 //app.UseStaticFiles(); //Ursprungcode
 
-//app.UseRouting(); //Ursprungcode
+app.UseRouting(); //Ursprungcode
 
 app.UseAuthorization();
 

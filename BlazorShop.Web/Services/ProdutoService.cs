@@ -36,7 +36,7 @@ public class ProdutoService : IProdutoService
         }
         catch (Exception e)
         {
-            _logger.LogError("Error accessing products: api/Produtos", e);
+            _logger.LogError("Error accessing products: api/Produtos" + e);
             Console.WriteLine("Exception message: " + e.Message);
             Console.WriteLine("Exception source: " + e.Source);
             throw;

@@ -36,13 +36,13 @@ public class GerenciaCarrinhoItensLocalStorageService : IGerenciaCarrinhoItensLo
     //obtem os dados do servidor e armazena no localstorage
     private async Task<List<ShopItems_DTO>> AddCollection()
     {
-        //var carrinhoCompraCollection = await this.carrinhoCompraService
-        //                                  .GetItens(UsuarioLogado.UsuarioId);
+        var carrinhoCompraCollection = await this.carrinhoCompraService
+                                          .GetItens(LogedUser.UserId);
 
-        //if (carrinhoCompraCollection != null)
-        //{
-        //    await this.localStorageService.SetItemAsync(key, carrinhoCompraCollection);
-        //}
+        if (carrinhoCompraCollection != null)
+        {
+            await this.localStorageService.SetItemAsync(key, carrinhoCompraCollection);
+        }
         return null; // carrinhoCompraCollection;
     }
 }

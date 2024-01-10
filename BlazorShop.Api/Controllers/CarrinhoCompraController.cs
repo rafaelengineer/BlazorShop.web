@@ -9,7 +9,7 @@ namespace BlazorShop.Api.Controllers;
 [ApiController]
 public class CarrinhoCompraController : ControllerBase
 {
-    private readonly IShopCarRepository carrinhoCompraRepo;
+    private readonly IShopCarRepository carShopRepo;
     private readonly IProductRepository produtoRepo;
 
     private ILogger<CarrinhoCompraController> logger;
@@ -19,7 +19,7 @@ public class CarrinhoCompraController : ControllerBase
         IProductRepository produtoRepository,
         ILogger<CarrinhoCompraController> logger)
     {
-        carrinhoCompraRepo = carrinhoCompraRepository;
+        carShopRepo = carrinhoCompraRepository;
         produtoRepo = produtoRepository;
         this.logger = logger;
     }
@@ -30,7 +30,7 @@ public class CarrinhoCompraController : ControllerBase
     {
         try
         {
-            var carrinhoItens = await carrinhoCompraRepo.GetItems(usuarioId);
+            var carrinhoItens = await carShopRepo.GetItems(usuarioId);
             if (carrinhoItens == null)
             {
                 return NoContent(); // 204 Status Code
@@ -57,7 +57,7 @@ public class CarrinhoCompraController : ControllerBase
     {
         try
         {
-            var carrinhoItem = await carrinhoCompraRepo.GetShopItems(id);
+            var carrinhoItem = await carShopRepo.GetShopItems(id);
             if (carrinhoItem == null)
             {
                 return NotFound($"Item não encontrado"); //404 status code
@@ -86,7 +86,7 @@ public class CarrinhoCompraController : ControllerBase
     {
         try
         {
-            var novoCarrinhoItem = await carrinhoCompraRepo.AddShopItems(carrinhoItemAdicionaDto);
+            var novoCarrinhoItem = await carShopRepo.AddShopItems(carrinhoItemAdicionaDto);
 
             if (novoCarrinhoItem == null)
             {
@@ -118,7 +118,7 @@ public class CarrinhoCompraController : ControllerBase
     {
         try
         {
-            var carrinhoItem = await carrinhoCompraRepo.DeleteShopItems(id);
+            var carrinhoItem = await carShopRepo.DeleteShopItems(id);
 
             if (carrinhoItem == null)
             {
@@ -147,7 +147,7 @@ public class CarrinhoCompraController : ControllerBase
         try
         {
 
-            var carrinhoItem = await carrinhoCompraRepo.UpdateShopItems(id, 
+            var carrinhoItem = await carShopRepo.UpdateShopItems(id, 
                                    carrinhoItemAtualizaQuantidadeDto);
 
             if (carrinhoItem == null)

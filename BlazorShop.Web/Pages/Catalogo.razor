@@ -44,19 +44,14 @@ else
 
     public IEnumerable<Product_DTO> Products { get; set; }
 
-    protected override async Task OnInitializedAsync()
-    {
-        Products = await produtoService.GetItens();
-    }
-    //public IEnumerable<Product_DTO> Products { get; set; }
-    //
     //protected override async Task OnInitializedAsync()
     //{
     //    Products = await produtoService.GetItens();
     //}
-    }
+    
+    
 
-    @*[Inject]
+    [Inject]
     public IGerenciaProdutosLocalStorageService?
                  GerenciaProdutosLocalStorageService
     { get; set; }
@@ -78,12 +73,12 @@ else
         {
             await LimpaLocalStorage();
 
-            Produtos = await GerenciaProdutosLocalStorageService.GetCollection();
+            Products = await GerenciaProdutosLocalStorageService.GetCollection();
 
-            var carrinhoCompraItens = await GerenciaCarrinhoItensLocalStorageService
+            var shopItems = await GerenciaCarrinhoItensLocalStorageService
                                            .GetCollection();
 
-            var totalQuantidade = carrinhoCompraItens.Sum(i => i.qtd);
+            var totalQuantidade = shopItems.Sum(i => i.qtd);
 
             CarrinhoCompraService.RaiseEventOnCarrinhoCompraChanged(totalQuantidade);
 
@@ -98,4 +93,5 @@ else
     {
         await GerenciaProdutosLocalStorageService.RemoveCollection();
         await GerenciaCarrinhoItensLocalStorageService.RemoveCollection();
-    }*@
+    }
+    }

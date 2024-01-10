@@ -21,7 +21,7 @@ public class CarrinhoCompraService : ICarrinhoCompraService
         try
         {
             var response = await httpClient
-                          .PostAsJsonAsync<ShopCarItemsAdd_DTO>("api/CarrinhoCompra", 
+                          .PostAsJsonAsync<ShopCarItemsAdd_DTO>("api/CarrinhoCompra",
                            carrinhoItemAdicionaDto);
 
             if (response.IsSuccessStatusCode)// status code entre 200 a 299
@@ -48,8 +48,6 @@ public class CarrinhoCompraService : ICarrinhoCompraService
             throw;
         }
     }
-
-
     public async Task<ShopItems_DTO> AtualizaQuantidade(ShopItemsUpdate_DTO
                                                    carrinhoItemAtualizaQuantidadeDto)
     {
@@ -73,8 +71,7 @@ public class CarrinhoCompraService : ICarrinhoCompraService
         }
 
     }
-
-    public async Task<ShopItems_DTO> DeletaItem(int id)
+    public async Task<ShopItems_DTO> DeleteItem(int id)
     {
         try
         {
@@ -90,7 +87,6 @@ public class CarrinhoCompraService : ICarrinhoCompraService
             throw;
         }
     }
-
     public async Task<List<ShopItems_DTO>> GetItens(string usuarioId)
     {
         try
@@ -117,7 +113,6 @@ public class CarrinhoCompraService : ICarrinhoCompraService
             throw;
         }
     }
-
     public void RaiseEventOnCarrinhoCompraChanged(int totalQuantidade)
     {
         if (OnCarrinhoCompraChanged != null)
@@ -125,5 +120,4 @@ public class CarrinhoCompraService : ICarrinhoCompraService
             OnCarrinhoCompraChanged.Invoke(totalQuantidade);
         }
     }
-
 }
